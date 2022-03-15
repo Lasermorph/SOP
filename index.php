@@ -30,7 +30,7 @@
             {
                 background-color: rgb(0, 150, 255);
             }
-            .buton:link
+            .buttonHome:link
             {
                 
             }
@@ -43,9 +43,10 @@
     <img id="img1" src="image.php" alt="">
         <?php
             echo '<h1 id = "fisk">Hello World!</h1>';
+            $gamer = '5';
+            setcookie('User', $gamer, time() + (86400 * 30), "/");
         ?>
-        <button class="buttonHome">click me</button>
-        <p><a href="we">vis</a></p>
+        <a href="secound.php" class="buttonHome">click me</a>
     </body>
     <footer>
 
