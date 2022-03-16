@@ -30,10 +30,7 @@
             {
                 background-color: rgb(0, 150, 255);
             }
-            .buttonHome:link
-            {
-                
-            }
+
         </style>
         <title>
             Anton er min
@@ -44,9 +41,8 @@
         <?php
             echo '<h1 id = "fisk">Hello World!</h1>';
             $gamer = '5';
-            setcookie('User', $gamer, time() + (86400 * 30), "/");
         ?>
-        <a href="secound.php" class="buttonHome">click me</a>
+        <a href="login.php" class="buttonHome">Accept cookies</a>
     </body>
     <footer>
 
