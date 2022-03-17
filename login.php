@@ -28,7 +28,7 @@
     </title>
 </head>
 <body>
-    <form method="POST" action="secound.php">
+    <form method="POST" action="second.php">
     <input type="text" class="login_field" id="uname" name="username" placeholder="Your username..">
     <input type="password" class="login_field" id="pword" name="password" placeholder="Your password..">
     <input type="submit" value="Submit">
